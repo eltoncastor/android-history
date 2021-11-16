@@ -1,0 +1,112 @@
+@media only screen and (max-width: 785px) {
+    main, footer {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    p {
+        text-indent: 1.3em;
+        line-height: 1.5em;
+        margin-left: 6px;
+        font-size: 14px;
+    }
+    main {
+        margin: 0;
+        border-radius: 0;
+    }
+    header {
+        height: 120px;
+    }
+    header > h1 {
+        font-size: 28px;
+
+    }
+    header p {
+        font-size: 12px;
+        margin-bottom: 0;
+
+    }
+    nav {
+        font-size: 14px;
+    }
+    nav a {
+        margin-left: 5px;
+        padding: 4px;
+    }
+    footer {
+        margin: 0px;
+    }
+    .titulo1 {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .titulo2 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav a {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    nav :first-child {
+        margin-left: 22px;
+    }
+    header {
+        padding-bottom: 22px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    p {
+        font-size: 34px;
+    }
+   header > h1 {
+        font-size: 84px;
+    }
+    header p {
+        font-size: 34px;
+    }
+    nav {
+        font-size: 34px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .titulo1 {
+        font-size: 70px;
+        margin-left: 50px;
+    }
+    .titulo2 {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .titulo3 {
+        font-size: 40px;
+    }
+    #lista {
+        font-size: 34px;
+    }
+    main p {
+        text-indent: 56px;
+        line-height: 1.7em;
+        margin: 15px 0;
+    }
+}
+
+
+/* .titulo2:hover {
+    transition-duration: 1s all ease;
+    background: linear-gradient(90deg,  rgba(255,255,255,0)0%, rgba(131,225,173,1) 100%);
+} */
+
+
